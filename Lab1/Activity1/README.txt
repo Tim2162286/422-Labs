@@ -1,0 +1,3 @@
+Before running the build.xml, set tomcat.home in build.properties. if you do not want the classes and build directories in the src tree folder, you can change those as well.
+the querry string for match1/programmers is case sensitive. the days querry parameter takes in a string of day abreviations, M=Monday, Tu=Tuesday, W=Wednsday, Th=Thursday, F=Friday, Sa=Saturday, Su=Sunday. the day parameter is non delimeted, so searching for Monday Wednsday Thursday would be MWTh.
+programmers.xml will be created in WEB-INF automaticly. if the xml file is corupted it will be reinitialzed when the server restarts.

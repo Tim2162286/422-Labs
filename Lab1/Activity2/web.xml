@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="ISO-8859-1"?>
+<!DOCTYPE web-app
+        PUBLIC "-//Sun Microsystems, Inc.//DTD Web Application 2.3//EN"
+        "http://java.sun.com/dtd/web-app_2_3.dtd">
+<web-app>
+    <listener>
+        <listener-class>ContextListener</listener-class>
+    </listener>
+    <display-name>test</display-name>
+    <description>Lab 1</description>
+    <servlet>
+        <servlet-name>addProgrammer</servlet-name>
+        <servlet-class>AddProgrammerServlet</servlet-class>
+    </servlet>
+    <servlet>
+        <servlet-name>getProgrammers</servlet-name>
+        <servlet-class>GetProgrammersServlet</servlet-class>
+    </servlet>
+    <servlet-mapping>
+        <servlet-name>addProgrammer</servlet-name>
+        <url-pattern>/newprogrammer/*</url-pattern>
+    </servlet-mapping>
+    <servlet-mapping>
+        <servlet-name>getProgrammers</servlet-name>
+        <url-pattern>/programmers</url-pattern>
+    </servlet-mapping>
+
+</web-app>

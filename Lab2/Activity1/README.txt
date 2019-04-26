@@ -1,0 +1,2 @@
+Set tomcat home and ports in build.properties. the deploy target will deploy to both tomcats, where the tomcat folder is ${tomcat.home}-${tomcat.port<x>}.
+to deploy to one port, use the deployPort<x> target.
